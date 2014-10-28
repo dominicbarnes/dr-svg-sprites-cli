@@ -1,0 +1,30 @@
+{
+  "name": "dr-svg-sprites-cli",
+  "version": "0.0.0",
+  "description": "A CLI for dr-svg-sprites",
+  "author": "Dominic Barnes <dominic@dbarnes.info>",
+  "keywords": [
+    "svg",
+    "sprite",
+    "dr-svg-sprites",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominicbarnes/dr-svg-sprites-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/dominicbarnes/dr-svg-sprites-cli/issues"
+  },
+  "homepage": "https://github.com/dominicbarnes/dr-svg-sprites-cli",
+  "license": "MIT",
+  "bin": {
+    "dr-svg-sprites": "cli.js"
+  },
+  "dependencies": {
+    "commander": "^2.5.0",
+    "debug": "^2.1.0",
+    "dr-svg-sprites": "^0.9.15",
+    "extend": "^2.0.0"
+  }
+}
