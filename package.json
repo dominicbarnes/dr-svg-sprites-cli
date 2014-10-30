@@ -24,7 +24,7 @@
   "dependencies": {
     "commander": "^2.5.0",
     "debug": "^2.1.0",
-    "dr-svg-sprites": "^0.9.15",
+    "dr-svg-sprites": "^0.9.18",
     "extend": "^2.0.0"
   }
 }
