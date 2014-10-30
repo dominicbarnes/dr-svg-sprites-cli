@@ -16,13 +16,17 @@ issues if you have specific requests.
 
 ```
 
-  Usage: dr-svg-sprites [options] <spriteElementPath...>
+  Usage: cli [options] <spriteElementPath...>
 
   Options:
 
-    -h, --help           output usage information
-    -V, --version        output the version number
-    -C, --config <file>  Pass an entire config file (JSON or JS)
-
+    -h, --help            output usage information
+    -V, --version         output the version number
+    -C, --config <file>   Pass an entire config file (JSON or JS)
+    -O, --output <path>   Short-hand for setting all output paths to the same directory
+    -c, --css <path>      The CSS output path (aka: options.cssPath)
+    -p, --png <path>      The PNG sprite output path (aka: options.pngPath)
+    -s, --svg <path>      The SVG sprite output directory (aka: options.spritePath)
+    -P, --preview <path>  The preview outputh path (aka: options.previewPath)
 
 ```
